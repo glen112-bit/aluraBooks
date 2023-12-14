@@ -20,6 +20,8 @@
   align-items: space-between;
   line-height: 56px;
   justify-content: center;
+
+  /* margin: 0 12rem; */
 }
 .topicos__link{
   background-color: var(--laranja);
@@ -57,4 +59,31 @@
   background: url("../assets/Email.svg")no-repeat;
   
   padding-left:2em;
+ }
+ @media only screen and (min-width: 500px){
+   .topicos__lista{
+     flex-wrap: wrap;
+     max-width: 80%;
+     margin: 0 auto;
+   }
+ }
+ @media only screen and (min-width: 1024px){
+   
+   .topicos__titulo{
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 36px;
+   }
+   .topicos__link{
+     font-size: 24px;
+     font-weight: 700;
+   }
+   .topicos{
+     padding: 3em 4em;
+   }
+  
+   .topicos__item{
+     margin-bottom: 1em;
+   }
+   
  }
