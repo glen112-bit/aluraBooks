@@ -2,11 +2,11 @@
   background: var(--azul-degrade);
   color: var(--branco);
   height: 295px;
+  padding: 2em;
 }
 .topicos__titulo{
   text-align: center;
   /* justify-content: center; */
-  padding: 2em 0;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -19,6 +19,8 @@
   align-items: space-between;
   line-height: 56px;
   justify-content: center;
+  padding: 2em 20%;
+  margin-bottom: 6em;
 }
 .topicos__link{
   background-color: var(--laranja);

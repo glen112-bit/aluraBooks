@@ -1,6 +1,7 @@
 @media only screen and (min-width: 1024px){
 	.contato{
      display: flex;
+  justify-content: center;
      justify-content: center;
      align-items: center;
    }
@@ -13,5 +14,10 @@
    }
    .contato{
       margin: 0 20%;
+   }
+}
+@media screen and (min-width: 1728px) {
+   .contato{
+      padding: 3em 4vw;
    }
 }
