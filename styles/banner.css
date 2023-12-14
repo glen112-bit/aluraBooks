@@ -31,7 +31,7 @@
 	color: var(--branco);
 	padding: 1em;
 	background: url("../assets/Lupa.svg") no-repeat;
-	background-position: 1.5em;
+	background-position: 3.5em;
 }
 
 @media only screen and (min-width: 1024px){
@@ -43,7 +43,7 @@
 		line-height: 24px;
 	}
 	.banner__pesquisa{
-		padding: 10px 24px 10px 24px;
+		/* padding: 10px 24px 10px 24px; */
 		width: 50%;
 		height: 56px;
 	}
@@ -55,3 +55,16 @@
 	}
 
 }
+
+@media only screen and (min-width: 1728) {
+	.banner__titulo{
+		font-size: 34px;
+	}
+	.banner__pesquisa{
+		width: 15%;
+	}
+	.banner{
+		padding: 6em 0;
+	}
+}
+

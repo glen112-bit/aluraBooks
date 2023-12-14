@@ -2,11 +2,10 @@
   background: var(--azul-degrade);
   color: var(--branco);
   height: 295px;
-  /* margin-top: 2rem; */
 }
 .topicos__titulo{
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 2em 0;
   font-weight: 300;
   font-size: 16px;
@@ -20,8 +19,6 @@
   align-items: space-between;
   line-height: 56px;
   justify-content: center;
-
-  /* margin: 0 12rem; */
 }
 .topicos__link{
   background-color: var(--laranja);
@@ -85,5 +82,13 @@
    .topicos__item{
      margin-bottom: 1em;
    }
-   
+ }
+
+ @media only screen and (min-width:1728) {
+   .topicos{
+     padding: 3em 180vw;
+   }
+   .topios__lista{
+     margin: 0 80%;
+   }
  }
