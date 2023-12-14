@@ -1,6 +1,9 @@
 .lista-rodape{
   display: none;
 }
+.container__texto{
+  display: none;
+}
 @media only screen and (min-width:1024px){
     .rodape{
     display: flex;
@@ -26,5 +29,40 @@
     text-decoration: none;
     color: var(--cinza);
     padding: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1728px){
+  .container__titulo,
+  .container__titulo-negrito{
+    font-family: var(--fonte-principal);
+  }
+  .cabecalho__menu-hamburger{
+    display: none;
+  }
+  .opcoes__item{
+    display: flex;
+    flex-direction: flex-start;
+  }
+  .container__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;    
+    color: var(--preto);    
+    font-size: 20px;
+    line-height: 30px;    
+  }
+  .cabecalho {
+    padding: 0 2em;
+  }
+  .container__link__coracao{
+    display: none;
+  }
+  .opcoes,
+  .container__texto{
+    margin-right: auto;
+  } 
+  .container__texto{
+    display: flex;
   }
 }
